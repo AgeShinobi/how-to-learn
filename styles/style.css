@@ -16,7 +16,6 @@ div {
 
 
 .header {
-   margin-bottom: 100px;
   display: flex;
   position: relative;
   height: 100vh;
@@ -35,9 +34,12 @@ div {
   position: absolute;
   top: 30px;
   left: 64px;
+  background-size: cover;
 }
 
 .logo_place_footer {
+  background-size: cover;
+
 }
 
 .header__title {
@@ -58,6 +60,7 @@ div {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link {
@@ -91,8 +94,8 @@ div {
 }
 
 .description {
-  margin-bottom: 100px;
-  display: flex;
+  padding-top: 100px;
+  display: block;
   justify-content: space-around;
 }
 
@@ -100,6 +103,7 @@ div {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: 0 auto;
   min-height: auto;
 }
 
@@ -139,14 +143,13 @@ div {
 }
 
 .digits {
-  margin-bottom: 100px;
-  display: flex;  
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  margin: 100px 0;
   text-align: center;
 }
 
 .section-title {
+  display: inline-block;
   margin-block: 0;
   width: 60%;
   line-height: 1.15;
@@ -156,6 +159,7 @@ div {
 }
 
 .section-subtitle {
+  display: inline-block;
   margin-block: 0;
   margin-top: 20px;
   width: 60%;
@@ -165,18 +169,20 @@ div {
 }
 
 .table {
+  margin: 0 auto;
+  padding-inline-start: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-
 }
 
 .table__cell {
   margin-top: 60px;
   width: 250px;
   text-align: start;
+  list-style-type: none;
   
 }
 
@@ -238,17 +244,15 @@ div {
 
 /* тёмная тема */
 .kaufman {
-  display: flex;  
+  display: block;
   position: relative;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   background-color: #1f1f1f;
   overflow: hidden;
 }
 
 .section-title_theme-dark {
-  margin-top: 90px;
+  padding-top: 90px;
   width: 60%;
   color: white;
   
@@ -266,8 +270,16 @@ div {
 .table__cell_theme-dark {
   margin-top: 80px;
   width: 200px;
+  z-index: 1;
+}
+
+.table__heading_theme-dark {
+
   color: white;
-  
+}
+
+.table__text_theme-dark {
+  color: white
 }
 
 .kaufman__triangle {
@@ -307,7 +319,7 @@ div {
 
 }
 
-.footer__author {
+.footer_author {
   margin-block: 0;
   margin: 18px 0;
   position: absolute;
@@ -321,21 +333,21 @@ div {
   
 }
 
-.footer__column-heading {
+.footer_column-heading {
   margin-block: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.footer__column-links {
+.footer_column-links {
   margin-block: 0;
   padding: 0;
   margin: 20px 0 16px;
   list-style-type: none;
 }
 
-.footer__column-link {
+.footer_column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -350,7 +362,9 @@ div {
 
 }
 
-.footer__social-icon {
-
+.footer_social-icon {
+  background-size: cover;
+  width: 16px;
+  height: 16px;
 }
 
