@@ -10,11 +10,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-div {
-  border: 1px solid red;
-}
-
-
 .header {
   display: flex;
   position: relative;
@@ -249,22 +244,24 @@ div {
   text-align: center;
   background-color: #1f1f1f;
   overflow: hidden;
+  z-index: -1;
 }
 
 .section-title_theme-dark {
   padding-top: 90px;
   width: 60%;
   color: white;
+  z-index: 1;
   
 }
 
 .section-subtitle_theme-dark {
   color: white;
+  z-index: 1;
 }
 
 .table_theme-dark {
   margin-bottom: 90px;
-  z-index: 1;
 }
 
 .table__cell_theme-dark {
@@ -274,12 +271,12 @@ div {
 }
 
 .table__heading_theme-dark {
-
+  position: relative;
   color: white;
 }
 
 .table__text_theme-dark {
-  color: white
+  color: white;
 }
 
 .kaufman__triangle {
@@ -290,6 +287,7 @@ div {
   background-size: cover;
   width: 877px;
   height: 877px;
+  z-index: 0;
 }
 
 /* Подвал сайта */
@@ -313,10 +311,6 @@ div {
   display: block;
   position: relative;
   flex-basis: 711px;
-}
-
-.logo_place_footer {
-
 }
 
 .footer_author {
@@ -368,3 +362,6 @@ div {
   height: 16px;
 }
 
+div {
+  border: 1px solid red;
+}
