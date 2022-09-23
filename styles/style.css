@@ -72,6 +72,8 @@
   height: 608px;
   background-position: center;
   background-size: cover;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
 }
 
@@ -100,7 +102,6 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  min-height: auto;
 }
 
 .two-columns__brief {
@@ -127,7 +128,6 @@
 /* у остальных margin-top: 30px */
 .two-columns__paragraph {
   margin-top: 30px;
-  list-style-type: none;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
