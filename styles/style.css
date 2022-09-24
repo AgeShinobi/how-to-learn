@@ -311,14 +311,18 @@
   color: white;
 }
 
-/* 1-й столбец подвала */
-.footer__columns_column_content-copyright {
+.footer__column {
   display: block;
+
+}
+
+/* 1-й столбец подвала */
+.footer__column_content-copyright {
   position: relative;
   flex-basis: 711px;
 }
 
-.footer_author {
+.footer__author {
   margin-block: 0;
   margin: 18px 0;
   position: absolute;
@@ -327,26 +331,26 @@
 }
 
 /* 2-й столбец подвала */
-.footer__columns_column_content-info {
+.footer__column_content-info {
   display: block;
   
 }
 
-.footer_column-heading {
+.footer__column-heading {
   margin-block: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.footer_column-links {
+.footer__column-links {
   margin-block: 0;
   padding: 0;
   margin: 20px 0 16px;
   list-style-type: none;
 }
 
-.footer_column-link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -361,7 +365,9 @@
 
 }
 
-.footer_social-icon {
+.footer__social-icon {
+  margin-right: 10px;
+  background-position: center;
   background-size: cover;
   width: 16px;
   height: 16px;
