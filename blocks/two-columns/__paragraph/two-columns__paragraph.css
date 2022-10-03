@@ -1,0 +1,12 @@
+/* у 1-го элемента margin-top: 0 */
+.two-columns__paragraph:first-of-type {
+  margin-top: 0;
+}
+
+/* у остальных margin-top: 30px */
+.two-columns__paragraph {
+  margin-top: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
