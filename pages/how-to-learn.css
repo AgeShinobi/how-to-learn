@@ -1,5 +1,5 @@
 /* подключаем normalize.css */
-@import url(../vendor/normalize.css);
+@import url(../pages/normalize.css);
 
 /* подключаем кейфрейм */
 @import url(../keyframes/@keyframes_rotation.css);
@@ -57,7 +57,6 @@
 
 /* description */
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/two-columns/two-columns.css);
 
 /* techniques */
 @import url(../blocks/techniques/techniques.css);
