@@ -1,8 +1,8 @@
 /* подключаем normalize.css */
 @import url(../pages/normalize.css);
 
-/* подключаем кейфрейм */
-@import url(../keyframes/@keyframes_rotation.css);
+/* подключаем кейфреймы */
+@import url(../blocks/keyframes/@keyframes_rotation.css);
 
 /* Подключаем общие стили, которые используются в нескольких местах */
 /* two-columns */
