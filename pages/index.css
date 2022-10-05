@@ -1,8 +1,8 @@
 /* подключаем normalize.css */
 @import url(../pages/normalize.css);
 
-/* подключаем кейфреймы */
-@import url(../blocks/keyframes/@keyframes_rotation.css);
+/* подключаем rotation */
+@import url(../blocks/rotation/rotation.css);
 
 /* Подключаем общие стили, которые используются в нескольких местах */
 /* two-columns */
@@ -14,19 +14,19 @@
 
 /* section title/subtitle */
 @import url(../blocks/section/section-title/section-title.css);
-@import url(../blocks/section/section-title/_theme/section-title_theme-dark.css);
+@import url(../blocks/section/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section/section-subtitle/section-subtitle.css);
-@import url(../blocks/section/section-subtitle/_theme/section-title_theme-dark.css);
+@import url(../blocks/section/section-subtitle/_theme/section-title_theme_dark.css);
 
 /* table */
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/_theme/table_theme-dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme-dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__heading/_theme/table__heading_theme-dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__text/_theme/table__text_theme-dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
 /* cards. Используется в одном месте, но для реюзинга оставим тут */
 @import url(../blocks/cards/cards.css);
@@ -37,8 +37,8 @@
 
 /* logo */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place_header/logo_place_header.css);
-@import url(../blocks/logo/_place_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* page */
 @import url(../blocks/page/page.css);
@@ -99,6 +99,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -107,7 +108,7 @@
 @import url(../blocks/footer/__column/footer__column-heading.css);
 @import url(../blocks/footer/__column/footer__column-link.css);
 @import url(../blocks/footer/__column/footer__column-links.css);
-@import url(../blocks/footer/__column/_content/footer__column_content-copyright.css);
-@import url(../blocks/footer/__column/_content/footer__column_content-info.css);
-@import url(../blocks/footer/__column/_content/footer__column_content-social.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__social/footer__social-icon.css);
