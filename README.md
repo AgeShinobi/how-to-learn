@@ -8,6 +8,3 @@
 - keyframes и анимации фигур и ссылок;
 - подключение API;
 - использование миксов различных стилей;
-
-## Посмотреть проект можно здесь:
-[Github Pages](https://ageshinobi.github.io/how-to-learn/)
